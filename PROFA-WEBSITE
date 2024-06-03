@@ -1,0 +1,1337 @@
+// HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/projektet-profa/resturant.css">
+    <title>Welcome To My Restorant</title>
+</head>
+<body>
+
+    <nav>
+        <div class="navi">
+            <a id="a1" href="#home">Pizza</a>
+            <div class="navi-container">
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="home" id="home">
+       <img src="/projektet-profa/fotot/pizza.jpg">
+        <div class="left-header">
+            <h2>Open From 8AM To 10PM</h2>
+        </div>
+        <div class="center-header">
+            <h2><span>&Star;</span> Yummy Pizza <span>&Star;</span></h2>
+        </div>
+        <div class="bottom-header">
+            <a href="#menu"><span>&Star;</span> See Menu</a>
+            <div id="or">Or</div>
+            <a href="#contact">Contact Us <span>&Star;</span></a>
+        </div>
+    </header>
+
+    <div class="menu-containerri">
+        <div class="menu-container" id="menu">
+            <div class="image">
+                <img class="img1" src="/projektet-profa/fotot/pizza3.avif">
+                <img class="img2" src="/projektet-profa/fotot/slice-pizza.jpg">
+                <img src="/projektet-profa/fotot/pizza4.avif" class="img3">
+                <img src="/projektet-profa/fotot/pizza5.jpg" alt="" class="img4">
+            </div>
+            <div class="header-container" id="header-container">
+                <h2>The Menu</h2>
+            </div>
+            <div class="menu-conainer-middle">
+                <div class="menuja-nav">
+                    <button id="btn1" class="pizzaActive">Pizza</button>
+                    <div></div>
+                    <button id="btn2" class="saladActive">Salads</button>
+                </div>
+                <div class="menuja-food" id="menuja-food">
+                    <div class="margareta-menu">
+                        <h2>Margherita:</h2>
+                        <p>$4.42</p>
+                    </div>
+                    <div class="teksti-margareta">
+                        <p>Fresh tomatoes, mozzarella cheese, basil, and a drizzle of olive oil on a thin crust.</p>
+                    </div>
+                    <div class="vija"></div>
+
+                    <div class="peperoni-menu">
+                        <h2>Pepperoni:</h2>
+                        <p>$7.50</p>
+                    </div>
+                    <div class="teksti-peperoni">
+                        <p>Traditional tomato sauce, mozzarella cheese, and slices of pepperoni.</p>
+                    </div>
+                    <div class="vija"></div>
+
+                    <div class="vegetarian-menu">
+                        <h2>Vegetarian:</h2>
+                        <p>$4.67</p>
+                    </div>
+                    <div class="teksti-vegetarian">
+                        <p>A medley of fresh vegetables such as bell peppers, onions, mushrooms, black olives, and tomatoes, topped with mozzarella cheese.</p>
+                    </div>
+                    <div class="vija"></div>
+
+                    <div class="hawaian-menu">
+                        <h2>Hawaiian:</h2>
+                        <p>$8.90</p>
+                    </div>
+                    <div class="teksti-hawaian">
+                        <p>Tomato sauce, mozzarella cheese, ham, and pineapple chunks.</p>
+                    </div>
+                    <div class="vija"></div>
+
+                    <div class="linku-per-contact">
+                        <a class="pizza-a1" href="#contact">Contact Us</a>
+                    </div>
+                </div>
+                <div class="menuja-salad" id="menuja-food">
+                    <div class="salad-menu">
+                        <h2>Salad:</h2>
+                        <p>$4.67</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-container-bg" id="about">
+        <div class="about-container">
+            <div class="about-header">
+                <h2>About Us</h2>
+            </div>
+            <div class="about-tekst">
+                <p>The Pizza Resturant Was Made In blabla By Mr.Ramsay Lorem amet consectetur adipisicing elit. Saepe amet ipsa quam ipsum libero consequuntur fuga eaque. Provident, ad quasi? Saepe amet ipsa quam ipsum libero consequuntur fuga eaque. Provident, ad quasi?</p>
+            </div>
+            <div class="the-chef">
+                <p><b>The Chef?</b> Mr.Ramsay</p>
+            </div>
+            
+            <div class="about-welcome">
+                <p>Everyone Is Welcome!</p>
+            </div>
+            <div class="photo">
+                <img src="/projektet-profa/fotot/resturant-photo.avif">
+            </div>
+            <!-- opening hours -->
+            <div class="opening-about">
+                <div class="opening-hours">
+                    <h2>Opening Hours:</h2>
+                </div>
+                <div class="opening-flex">
+                    <div class="opening-hours-first">
+                        <div class="hours-days">
+                            <p>Monday: 08:00 - 20-00</p>
+                            <p>Teusday: 08:00 - 20-00</p>
+                            <p>wednesday: 10:00 - 18-00</p>
+                        </div>
+                    </div>
+                    <div class="opening-hours-second">
+                        <p>Thursday: 08:00 - 18-00</p>
+                        <p>Friday: 12:00 - 22-00</p>
+                        <p>Saturday & Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-container-bg" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Contact</h2>
+            </div>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="number" placeholder="How Many People" required>
+                <input type="datetime-local" required>
+                <textarea rows="1" cols="100%" placeholder="Message" required></textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-header">
+                <h2>Location:</h2>
+                <p>blabal Street</p>
+                <p>Lipjan 535022, Kosovo</p>
+                <p><b>Phone:</b> +383-123-456</p>
+                <p><b>Email:</b> info@example.com</p>
+            </div>
+            <div class="useful-links">
+                <h2>Useful Links</h2>
+                <a href="#home">&gt; Home</a>
+                <a href="#menu">&gt; Menu</a>
+                <a href="#about">&gt; About</a>
+                <a href="#contact">&gt; Contact</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 All rights reserved |</p>
+            <p>Mady By <span>|<a href="/projektet-profa/my-portfolio/my-portfolio.html">Erblin thaqi</a>|</span></p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+// CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Amatic SC', sans-serif;
+    scrollbar-width: thin;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    width: 100%;
+}
+
+nav .navi:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
+nav .navi{
+    transition: all .3s linear;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 5rem;
+    background-color: rgba(0,0,0,.3);
+    box-shadow: 2px 2px 10px rgba(255,255,255,.9);
+    width: 100%;
+    height: 62px;
+    z-index: 100;
+}
+
+.navi a {
+    color: #fff;
+    font-size: 30px;
+    transition: all .3s linear;
+}
+
+.navi .navi-container a {
+    margin-right: 50px;
+}
+
+.navi a:hover{
+    color: red;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    min-width: 100%;
+    height: 738px;
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
+    @media screen and (max-width: 580px) {
+        width: 100%;
+        background-position-x: center;
+    }
+}
+
+.left-header {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: auto;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    background-color: #000;
+}
+
+.center-header {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.5);
+    padding: .5rem;
+    background-color: rgba(255,255,255,.3);
+}
+
+header .center-header h2 {
+    color: #fefefe;
+    font-size: 35px;
+    cursor: default;
+}
+
+span {
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+span:hover {
+    color: rgb(213, 23, 23);
+}
+
+.bottom-header {
+    position: absolute;
+    top: 53%;
+    left: 34%;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.5);
+    padding: 1.4rem;
+    background-color: rgba(255,255,255,.3);
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 580px) {
+        font-size: 20px;
+    }
+}
+
+.bottom-header a:hover {
+    color: rgb(213, 23, 23);
+    transition: .3s linear;
+}
+
+.bottom-header, #or, a {
+    color: #fff;
+    margin: 0 15px 0 15px;
+    font-size: 35px;
+}
+
+.bottom-header span {
+    margin: 5px;
+}
+
+/* next */
+
+.menu-containerri {
+    background-color: black;
+    margin-top: -36px;
+    margin-bottom: 4rem;
+    overflow: hidden;
+}
+
+.menu-container {
+    background-color: #000;
+    z-index: 100;
+    color: #fff;
+    margin: 2rem 300px;
+    position: relative;
+    @media screen and (max-width: 580px) {
+        margin: -4px;
+        overflow: hidden;
+    }
+}
+
+.header-container {
+    padding: 40px 350px;
+    text-align: center;
+    @media screen and (max-width: 580px) {
+        width: 100%;
+    }
+}
+
+.header-container h2 {
+    font-size: 55px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.menu-conainer-middle {
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,.5);
+    border-bottom: none;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    z-index: 10;
+    position: relative;
+}
+
+.image {
+    position: relative;
+    width: fit-content;
+}
+
+.image .img1 {
+    position: absolute;
+    left: -400px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.image .img2 {
+    position: absolute;
+    left: 1070px;
+    width: 300px;
+    top: 180px;
+    height: 300px;
+    object-fit: cover;
+    transform: rotateY(180deg);
+}
+
+.image .img3 {
+    position: absolute;
+    top: 28rem;
+    left: 900px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    transform: rotateY(20deg);
+    z-index: -1;
+}
+
+.image .img4 {
+    position: absolute;
+    top: 42.8rem;
+    left: -230px;
+    width: 400px;
+    height: 200px;
+    z-index: -1;
+}
+
+/* next */
+
+.menuja-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    @media screen and (max-width: 580px) {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+.menuja-nav #btn1, #btn2 {
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    width: 30%;
+    transition: all .3s linear;
+}
+
+.menuja-nav #btn1:hover, #btn2:hover {
+    background-color: rgba(255,255,255,.2);
+    cursor: pointer;
+    color: rgb(213, 23, 23);
+}
+
+.menuja-nav div {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+}
+
+/* menuja food */
+
+.menuja-food.active{
+    padding: 1rem;
+    display: block;
+}
+
+.menuja-food .margareta-menu h2 {
+    font-size: 32px;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;   
+    }
+}
+
+.menuja-food .margareta-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuja-food .margareta-menu p {
+    background-color: rgba(255,255,255,.3);
+    width: 65px;
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+}
+
+.menuja-food .teksti-margareta {
+    font-size: 30px;
+    width: 460px;
+    margin-top: 1.5rem;
+    color: #d2d2d2;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        width: 310px;   
+    }
+}
+
+.vija {
+    width: 100%;
+    height: .1px;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+
+/* next */
+
+.menuja-food .peperoni-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.peperoni-menu h2  {
+    font-size: 32px;
+    padding-top: 36px;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;   
+    }
+}
+
+.peperoni-menu p {
+    background-color: rgba(255,255,255,.3);
+    width: 65px;
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 36px;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+}
+
+.teksti-peperoni {
+    font-size: 30px;
+    width: 460px;
+    margin-top: 1.5rem;
+    color: #d2d2d2;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        width: 350px;
+    }
+}
+
+/* next */
+
+.menuja-food .vegetarian-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vegetarian-menu h2  {
+    font-size: 32px;
+    padding-top: 36px;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+    }
+}
+
+.vegetarian-menu p {
+    background-color: rgba(255,255,255,.3);
+    width: 65px;
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 36px;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+}
+
+.teksti-vegetarian {
+    font-size: 30px;
+    width: 590px;
+    margin-top: 1.5rem;
+    color: #d2d2d2;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        width: 320px; 
+    }
+}
+
+/* next */
+
+.menuja-food .hawaian-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hawaian-menu h2  {
+    font-size: 32px;
+    padding-top: 36px;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+    }
+}
+
+.hawaian-menu p {
+    background-color: rgba(255,255,255,.3);
+    width: 65px;
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 36px;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+}
+
+.teksti-hawaian {
+    font-size: 30px;
+    width: 590px;
+    margin-top: 1.5rem;
+    color: #d2d2d2;
+    @media screen and (max-width: 580px) {
+        font-size: 25px;
+        width: 280px;
+    }
+}
+
+.linku-per-contact {
+    border: 1px solid;
+    width: 200px;
+    margin-top: 1rem;
+    text-align: center;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    cursor: pointer; 
+    transition: all .3s linear;
+}
+
+.linku-per-contact:hover {
+    background-color: rgb(213, 23, 23);
+    border: 1px solid rgb(213, 23, 23);
+}
+
+.linku-per-contact .pizza-a1:hover {
+    color: #fff;
+}
+
+/* About below */
+
+.about-container-bg {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, .9);
+    margin-top: -4rem;
+    color: #fff;
+}
+
+.about-container {
+    margin: -33px 228px;
+}
+
+.about-header {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-tekst {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.the-chef  {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.about-welcome  {
+    font-size: 28px;
+    padding-bottom: 3rem;
+}
+
+.photo {
+    width: 100%;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.opening-about {
+    padding: 2rem 0 2rem 1rem;
+    width: 100%;
+}
+
+.opening-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.opening-hours {
+    font-size: 30px;
+    padding: 0 0 1rem 0;
+}
+
+.hours-days {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.hours-days p {
+    padding-bottom: 10px;
+}
+
+.opening-hours-second {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.opening-hours-second p {
+    padding-bottom: 10px;
+}
+
+/* contact */
+
+.contact-container {
+    padding: 0 228px 0 228px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .9);
+    color: #fff;
+}
+
+.contact-header {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7.5rem;
+}
+
+form input:nth-child(1) {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 35px;
+}
+
+form input:nth-child(2) {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 35px;
+}
+
+form input:nth-child(3) {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+form textarea {
+    font-size: 35px;
+    height: 60px;
+    padding: 10px;
+    position: sticky;
+}
+
+form button {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 35px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    transition: all .3s linear;
+}
+
+form button:hover {
+    color: #fff;
+    background-color: rgb(213, 23, 23);
+    border: none;
+    transition: .3s linear;
+}
+
+/* footer section */
+
+.footer {
+    width: 100%;
+    padding: 2rem 228px 2rem 228px;
+    background-color: rgba(0,0,0, .9);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-header {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-container h2 {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 1.5rem;
+}
+
+.footer-container p {
+    padding-bottom: 2rem;
+}
+
+.useful-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.useful-links h2 {
+    color: #fff;
+    padding-bottom: 1.5rem;
+}
+
+.useful-links a {
+    padding-bottom: 1rem;
+    font-size: 25px;
+    transition: all .3s linear;
+}
+
+.useful-links a:hover {
+    color: rgb(213, 23, 23);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 17px;
+}
+
+.copyright span {
+    color: rgb(98, 205, 26); 
+}
+
+.copyright p a {
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.copyright span:hover, a:hover {
+    color: rgb(213, 23, 23);
+    transition: .3s linear;
+}
+
+/* salad menu */
+
+.menuja-salad.active {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+/* media repsonsive */
+
+@media screen and (max-width: 1700px) {
+    .header-container {
+        padding: 10px 10px;
+    }
+
+    #menu {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .header-container {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .header-container {
+        display: flex;
+        padding: 10px 10px;
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    #menu {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    img {
+       width: 100%;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .bottom-header {
+        left: 30%;
+    }
+
+    #menu {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .opening-flex {
+        width: 1005;
+    }
+
+    .opening-hours-first {
+        margin-right:5rem;
+        width: 100%;
+    }
+
+    .teksti-vegetarian {
+        width: 520px;
+    }
+
+    .about-container {
+        margin: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .opening-hours-second {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .footer-container {
+        padding-top: 3rem;
+    }
+
+    .useful-links a {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .copyright p {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .center-header {
+        left: 37%;
+    }
+
+    .bottom-header {
+        left: 20%;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .teksti-vegetarian {
+        width: 450px;
+    }
+
+    .teksti-hawaian {
+        width: 400px;
+    }
+
+    .about-container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-tekst {
+        width: 100%;
+    }
+
+    .opening-hours {
+        text-align: center;
+    }
+
+    .opening-about {
+        width: 100%;
+        padding: 0 0 3rem 0;
+    }
+
+    .the-chef, .about-welcome {
+        text-align: center;
+    }
+
+    .opening-flex {
+        display: flex;
+        margin-left: 110px;
+        text-align: center;
+    }
+
+    .contact-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-header {
+        padding: 1rem 0 3rem 0;
+    }
+
+    .contact-header h2 {
+        font-size: 50px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .footer-container {
+        padding-top: 3rem;
+    }
+
+    .useful-links a {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .copyright p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .navi .navi-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+
+    #a1 {
+        position: absolute;
+        left: 60px;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .the-chef {
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .about-welcome {
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+    .opening-flex {
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+
+    .opening-hours-second {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #a1 {
+        position: absolute;
+        left: 70px;
+    }
+
+    .teksti-margareta {
+        width: 100px;
+    }
+
+    .navi-container {
+        position: absolute;
+        left: 100px;
+    }
+
+    .bottom-header {
+        left: 100px;
+        padding: 15px;
+    }
+
+    #menu {
+        width: 100%;
+        margin: -4px;
+    }
+
+    .teksti-margareta {
+        width: 300px;
+    }
+
+    .header-conainer {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .menu-containerri {
+        margin-top: -4px;
+    }
+
+    .about-container {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .opening-about{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opening-flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }   
+
+    .contact-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .footer-container {
+        padding-top: 3rem;
+    }
+
+    .useful-links a {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .copyright p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .navi .navi-container {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    #a1 {
+        position: absolute;
+        left: 20px;
+    }
+
+    .center-header {
+        position: absolute;
+        left: 30%;
+        top: 30%;
+    }
+
+    .bottom-header {
+        left: 15%;
+    }
+
+    .bottom-header, a, div:nth-child(1) {
+        font-size: 23px;
+    }
+
+    .linku-per-contact {
+        width: 200px;
+        font-size: 25px;
+    }
+
+    .header-container h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menu-container {
+        width: 100%;
+    }
+
+    .menu-conainer-middle {
+       width: 100%;
+    }
+
+    .about-container {
+        width: 100%;
+        margin: 0 1rem 0 1rem;
+        padding: 0;
+    }
+
+    .about-container {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .linku-per-contact .pizza-a1 {
+        font-size: 30px;
+    }
+
+    .about-header {
+        padding: 20px 0 50px 0;
+    }
+
+    .about-header h2 {
+        font-size: 50px;
+    }
+
+    .opening-about {
+        width: 100%;
+        padding: 0;
+    }
+
+    .opening-flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .contact-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-header {
+        padding: 1rem 0 3rem 0;
+    }
+
+    .contact-header h2 {
+        font-size: 50px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .footer-container {
+        padding-top: 3rem;
+    }
+
+    .useful-links a {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .copyright p {
+        font-size: 20px;
+    }
+
+}
+
+// JS
+
+document.addEventListener('DOMContentLoaded', () => {
+    const pizzaMenuButton = document.getElementById('btn1');
+    const saladMenuButton = document.getElementById('btn2');
+    const pizzaMenu = document.getElementById('pizza-menu');
+    const saladMenu = document.getElementById('salad-menu');
+
+    pizzaMenuButton.addEventListener('click', function () {
+        pizzaMenu.classList.add('active');
+        saladMenu.classList.remove('active');
+    });
+
+    saladMenuButton.addEventListener('click', function () {
+        saladMenu.classList.add('active');
+        pizzaMenu.classList.remove('active');
+    });
+
+    // Initialize with the pizza menu shown
+    pizzaMenu.classList.add('active');
+});
+
+STILL UPDATING JS 
